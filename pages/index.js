@@ -4,12 +4,14 @@ import styles from '../styles/Home.module.css'
 import Nav from '../components/Nav'
 import Hero from '../components/Hero'
 import Footer from '../components/Footer'
+import FeatureList from '../components/FeatureList'
 
 export default function Home() {
   return (
     <div>
       {/*<Nav />*/}
       <Hero />
+      <FeatureList />
       <Footer />
     </div>
   )
