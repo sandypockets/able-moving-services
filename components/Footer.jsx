@@ -2,10 +2,10 @@
 const navigation = {
   main: [
     { name: 'Our Story', href: '#' },
-    { name: 'Testimonials', href: '#' },
+    { name: 'Testimonials', href: 'reviews' },
     { name: 'Blog', href: '#' },
     { name: 'Jobs', href: '#' },
-    { name: 'Book Your Move', href: '#' },
+    { name: 'Book Your Move', href: 'contact' },
   ],
   social: [
     {
