@@ -6,7 +6,7 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 const navigation = [
   { name: 'Home', href: '/' },
   { name: 'Meet Our Team', href: 'meet-the-team' },
-  { name: 'Testimonials', href: '#' },
+  { name: 'Testimonials', href: 'reviews' },
   { name: 'Pricing', href: '#' },
 ]
 
@@ -42,12 +42,6 @@ export default function Hero() {
                             src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
                           />
                         </a>
-                        <div className="-mr-2 flex items-center md:hidden">
-                          <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
-                            <span className="sr-only">Open main menu</span>
-                            <MenuIcon className="h-6 w-6" aria-hidden="true" />
-                          </Popover.Button>
-                        </div>
                       </div>
                     </div>
                     <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
@@ -56,7 +50,7 @@ export default function Hero() {
                           {item.name}
                         </a>
                       ))}
-                      <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
+                      <a href="contact" className="font-medium text-indigo-600 hover:text-indigo-500">
                         Contact
                       </a>
                     </div>
@@ -87,12 +81,6 @@ export default function Hero() {
                             alt=""
                           />
                         </div>
-                        <div className="-mr-2">
-                          <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
-                            <span className="sr-only">Close main menu</span>
-                            <XIcon className="h-6 w-6" aria-hidden="true" />
-                          </Popover.Button>
-                        </div>
                       </div>
                       <div className="px-2 pt-2 pb-3 space-y-1">
                         {navigation.map((item) => (
@@ -117,8 +105,6 @@ export default function Hero() {
               </>
             )}
           </Popover>
-
-
         </div>
       </div>
     </div>
