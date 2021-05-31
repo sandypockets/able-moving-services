@@ -8,6 +8,7 @@ export default function MeetTheTeam() {
     <div>
       <SecondaryNav />
       <People />
+      <Footer />
     </div>
   )
 }
