@@ -9,7 +9,6 @@ import FeatureList from '../components/FeatureList'
 export default function Home() {
   return (
     <div>
-      {/*<Nav />*/}
       <Hero />
       <FeatureList />
       <Footer />
