@@ -17,7 +17,7 @@ const reviews = [
 export default function Example() {
   return (
     <section className="  overflow-hidden ">
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
 
         <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl flex justify-center">What our customers have to say about us.</h2>
 
