@@ -1,13 +1,12 @@
 import ContactForm from '../components/ContactForm'
-import SecondaryNav from '../components/SecondaryNav'
+import PagesNav from '../components/PagesNav'
 import Footer from "../components/Footer";
 import ContactDetails from "../components/ContactDetails";
 
 export default function Contact() {
   return (
     <div>
-      <SecondaryNav />
-      {/*<ContactForm />*/}
+      <PagesNav />
       <ContactDetails />
       <Footer />
     </div>

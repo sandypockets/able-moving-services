@@ -1,12 +1,12 @@
 import Hero from "../components/Hero";
 import Footer from "../components/Footer";
 import People from "../components/People";
-import SecondaryNav from '../components/SecondaryNav'
+import PagesNav from '../components/PagesNav'
 
 export default function MeetTheTeam() {
   return (
     <div>
-      <SecondaryNav />
+      <PagesNav />
       <People />
       <Footer />
     </div>
