@@ -19,16 +19,16 @@ const features = [
     description: 'We\'ll get your things from A to B in one piece.',
   },
   {
-    name: 'Neighbourly',
-    description: 'Magna a vel sagittis aliquam eu amet. Et lorem auctor quam nunc odio. Sed bibendum.',
+    name: 'Proven Track Record',
+    description: 'A dedicated team, with decades of experience.',
   },
   {
     name: 'Locally Owned',
-    description: 'Magna a vel sagittis aliquam eu amet. Et lorem auctor quam nunc odio. Sed bibendum.',
+    description: 'A familiar face you can trust.',
   },
   {
     name: 'Instruments',
-    description: 'Need to move a piano? We can get it there in tune.',
+    description: 'Moving a piano? We can get it there in tune.',
   },
   {
     name: 'Reasonably Priced',
