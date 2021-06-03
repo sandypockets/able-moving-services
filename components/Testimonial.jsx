@@ -1,5 +1,3 @@
-/* This example requires Tailwind CSS v2.0+ */
-
 const reviews = [
   {
     customerName: 'Dan N',
@@ -18,14 +16,16 @@ const reviews = [
 
 export default function Example() {
   return (
-    <section className=" bg-gray-50 overflow-hidden ">
+    <section className="  overflow-hidden ">
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl flex justify-center">What our customers have to say about us.</h2>
 
         {reviews.map((review) => (
 
           <div className="relative">
             <blockquote className="mt-10">
-              <div className="max-w-3xl mx-auto text-center text-2xl leading-9 font-medium text-gray-900">
+              <div className="max-w-4xl mx-auto text-center text-2xl leading-9 font-medium text-gray-900">
                 <p>
                   &ldquo;{review.customerQuote}&rdquo;
                 </p>
