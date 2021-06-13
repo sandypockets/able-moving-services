@@ -1,11 +1,7 @@
 # Able Moving Services
-A static production website, custom-built for Able Moving Services. 
+A simple website for a company called Able Moving Services. Built with React, Tailwind CSS, and Next.js. 
 
 ![https://github.com/sandypockets/able-moving-services/blob/main/docs/able-index.png?raw=true](https://github.com/sandypockets/able-moving-services/blob/main/docs/able-index.png?raw=true)
-
-The project was built with React, using [Next.js](https://nextjs.org/). The project is styled with [Tailwind CSS](https://tailwindcss.com/), and parts of [Tailwind UI](https://tailwindui.com/documentation) components. The site is currently deployed on [Vercel](https://vercel.com/).
-
-The site uses SSR (Server Side Rendering), ensuring that loading between pages is lightning fast, providing a great user experience. 
 
 ## Getting Started
 
@@ -50,10 +46,6 @@ yarn dev
 * autoprefixer `^10.2.6`
 * postcss `^8.3.0`
 * tailwindcss `^2.1.2`
-
-## Contributing
-
-Each page lives in the `pages/` directory, and is composed of components from the `components/` directory. 
 
 ### Helpful Links
 * [Next.js deployment documentation](https://nextjs.org/docs/deployment)
