@@ -1,4 +1,3 @@
-import ContactForm from '../components/ContactForm'
 import PagesNav from '../components/PagesNav'
 import Footer from "../components/Footer";
 import ContactDetails from "../components/ContactDetails";
