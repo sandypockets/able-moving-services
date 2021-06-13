@@ -1,19 +1,3 @@
-/*
-  This example requires Tailwind CSS v2.0+
-
-  This example requires some changes to your config:
-
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ]
-  }
-  ```
-*/
 import { MailIcon, PhoneIcon } from '@heroicons/react/outline'
 
 export default function Example() {
@@ -33,22 +17,22 @@ export default function Example() {
               <div>
                 <dt className="sr-only">Postal address</dt>
                 <dd>
-                  <p>1204 Franklin St</p>
-                  <p>North Bay, ON P1B 2M1</p>
+                  <p>123 Easy Street</p>
+                  <p>Anytown, ON A1B 2C3</p>
                 </dd>
               </div>
               <div className="mt-6">
                 <dt className="sr-only">Phone number</dt>
                 <dd className="flex">
                   <PhoneIcon className="flex-shrink-0 h-6 w-6 text-gray-400" aria-hidden="true" />
-                  <span className="ml-3">+1 (705) 471-5044</span>
+                  <span className="ml-3">+1 (123) 456-7891</span>
                 </dd>
               </div>
               <div className="mt-3">
                 <dt className="sr-only">Email</dt>
                 <dd className="flex">
                   <MailIcon className="flex-shrink-0 h-6 w-6 text-gray-400" aria-hidden="true" />
-                  <span className="ml-3">ablemovingservices@gmail.com</span>
+                  <span className="ml-3">hello@companyname.com</span>
                 </dd>
               </div>
             </dl>
