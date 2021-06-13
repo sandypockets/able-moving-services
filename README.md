@@ -5,7 +5,7 @@ A simple website for a company called Able Moving Services. Built with React, Ta
 
 ## Getting Started
 
-1. Fork, then clone the project to your machine. 
+1. Clone the project to your machine. 
 
 ```shell
 git clone git@github.com:sandypockets/able-moving-services.git
@@ -46,11 +46,3 @@ yarn dev
 * autoprefixer `^10.2.6`
 * postcss `^8.3.0`
 * tailwindcss `^2.1.2`
-
-### Helpful Links
-* [Next.js deployment documentation](https://nextjs.org/docs/deployment)
-* [API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-* The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-* [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-* [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-* [Next.js GitHub repository](https://github.com/vercel/next.js/)
